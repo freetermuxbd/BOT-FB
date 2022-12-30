@@ -4,4 +4,4 @@ os.system("git pull")
 try:
     __import__("bot").main()
 except Exception as e:
-    print(f"{er}{e}")
+    print("")
